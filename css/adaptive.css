@@ -5,15 +5,15 @@
         padding-right: 15px;
     }
 
-    .main-image {
+    .main__image {
          width: 400px;
     }
 
-    .main-image img {
+    .main__image-img {
         max-width: 100%;
     }
 
-    .products-items {
+    .products__items {
         justify-content: center;
     }
 
@@ -21,11 +21,11 @@
         margin: 12px;
     }
 
-    .order-form {
+    .order__form {
         margin-left: 45px;
     }
 
-    .order .container {
+    .order__container {
         max-width: 1024px;
     }
 
@@ -33,21 +33,21 @@
 
 /* 768 - 1024 */
 @media screen and (max-width: 1023px) {
-    .menu ul {
+    .menu__list {
         width: 420px;
     }
 
-    .main .container {
+    .main__container {
         flex-direction: column;
 
     }
 
-    .main-image {
+    .main__image {
         order: 1;
         margin-bottom: 30px;
     }
 
-    .main-info {
+    .main__info {
         order: 2;
     }
 
@@ -55,11 +55,11 @@
         margin-top: 70px;
     }
 
-    .main h1 {
+    .main__double-title {
         text-align: center;
     }
 
-    .main-action {
+    .main__action {
         text-align: center;
     }
 
@@ -73,17 +73,17 @@
         position: relative;
     }
 
-    .order-image {
+    .order__image {
         position: absolute;
         z-index: -1;
         right: calc(50% - 400px);
     }
 
-    .order-image img {
+    .order__image-img {
         position: relative;
     }
 
-    .order .container {
+    .order__container {
         justify-content: center;
     }
 
@@ -92,15 +92,15 @@
 /* 425 - 767 */
 @media screen and (max-width: 767px) {
 
-    .footer .container {
+    .footer__container {
         justify-content: space-between;
     }
 
-    .rights {
+    .footer__rights {
         margin-left: 0;
     }
 
-    .header .container {
+    .header__container {
         flex-wrap: wrap;
         justify-content: center;
         max-width: 390px;
@@ -112,39 +112,39 @@
         flex-basis: 100%;
     }
 
-    .menu ul {
+    .menu__list {
         max-width: 390px;
     }
 
-    .cart {
+    .header__cart {
         margin-left: 20px;
     }
 
-    .main-info h1 {
+    .main__info h1 {
         line-height: 45px;
     }
 
-    .main-advantages {
+    .main__advantages {
         margin-left: auto;
         margin-right: auto;
     }
 
-    .order .container {
+    .order__container {
         flex-direction: column;
         align-items: center;
     }
 
-    .order-text-title {
+    .order__double-title {
         text-align: center;
         margin-bottom: 30px;
     }
 
-    .order-text-message {
+    .order__text-message {
         text-align: left;
         margin-bottom: 25px;
     }
 
-    .order-form {
+    .order__form {
         margin-left: 0;
 
     }
@@ -154,7 +154,7 @@
 /* 425 - 656 */
 @media screen and (max-width: 656px) {
 
-    .main-advantages {
+    .main__advantages {
         max-width: 306px;
     }
 
@@ -168,7 +168,7 @@
         display: none;
     }
 
-    .main-image {
+    .main__image {
         width: 100%;
     }
 
@@ -182,22 +182,22 @@
         background: #000000C9;
     }
 
-    .menu ul {
+    .menu__list {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
         margin: 0 auto;
     }
 
-    .menu-item {
+    .menu__item {
         margin: 15px 0;
     }
 
-    .burger {
+    .header__burger {
         display: block;
     }
 
-    .burger svg {
+    .header__burger svg {
         width: 36px;
         height: 36px;
         fill: #fad7a7;
@@ -209,7 +209,7 @@
         align-items: center;
     }
     
-    .menu .close {
+    .menu__close {
         display: block;
         width: 24px;
         height: 24px;
@@ -224,23 +224,23 @@
 /* 374 - 320 */
 @media screen and (max-width: 374px) {
 
-    .main-info h1 {
+    .main__info h1 {
         font-size: 38px;
     }
 
-    .order-input {
+    .order__base-input {
         width: 290px;
     }
 
-    .order .btn {
+    .order__btn {
         width: 290px;
     }
 
-    .order-form {
+    .order__form {
         text-align: center;
     }
 
-    .rights {
+    .footer__rights {
         margin-left: 20px;
     }
 
